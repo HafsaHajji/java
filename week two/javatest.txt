@@ -1,0 +1,10 @@
+class ProgramTest {
+    int a = 20; // Instance variable
+
+    public static void main(String args[]) {
+        ProgramTest obj = new ProgramTest(); // Create an instance to access 'a'
+        System.out.println(obj.a);
+        System.out.println("Welcome to Java");
+    }
+}
+
